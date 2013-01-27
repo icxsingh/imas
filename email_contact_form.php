@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['email'])) {
      
- 
+    
     $email_to = "icxsingh@hotmail.com";
     $email_subject = "Website Prospect";
      
