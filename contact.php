@@ -56,7 +56,7 @@
                              <label for="email">Email Address<span class="madatory-field"> *</span></label>
                             </td>
                             <td>
-                             <input  type="text" name="email" maxlength="80" size="30">
+                             <input type="text" name="email" maxlength="80" size="30">
                             </td>
                         </tr>
                         <tr>
