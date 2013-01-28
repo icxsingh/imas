@@ -1,12 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
-    <link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
-        <link href="css/default.css" rel="stylesheet" type="text/css">
-        <link rel="icon"  type="image/ico" href="../images/favicon.ico">
+        <?php include 'includes/css_javascript_links.php'?>;    
         <title>imas Consulting- Contact Us</title>
     </head>
     <body>
@@ -19,19 +14,21 @@
                      </nav>
                 </div>
            </div>
+        <script>
+            $(function(){
+                $("#tabs").tabs();
+            });
+        </script>
          <div id="content-container">
              <div id="main-content">
-                 <h3>Contact Us</h3>
-                 <p>
-                    8508 E. Southgate Shores Circle<br />
-                    Tamarac, Fl. 33321<br />
-                    Tel: (305) 209 IMAS <br />
-                    Tel: (305) 209 4627 <br />
-                    Fax: (305) 909 6463<br />
-                    Mobile: (954) 990 9884<br />
-<!--                    Email: info@imasconsulting.com<br />-->
-                 </p>
-                 <h4>Send us an e-mail using our contact form:</h4>
+               <h3>Contact Us:</h3>
+                 <div id="tabs">
+                    <ul>
+                        <li><a href="#tabs-1">by email</a></li>
+                        <li><a href="#tabs-2">by mail/phone</a></li>
+                    </ul>
+                    <div id="tabs-1">
+                        <h4>Send us an e-mail using our contact form:</h4>
                    <form name="contactform" method="post" action="email_contact_form.php" class="table-form">
                     <fieldset>
                     <table width="450px">
@@ -83,14 +80,34 @@
                     </table>
                     </fieldset>
                     </form>
-             </div>
+                    </div>
+                    <div id="tabs-2">
+                        <p> Contact us today to find out more about how IMAS can meet your needs in maritime,
+                            quality management, or project management. We would love to hear from you.
+                        </p>
+                        <ul>
+                            <li style="list-style-type: none; padding-left: 30px;">
+                               8508 E. Southgate Shores Circle<br />
+                               Tamarac, Fl. 33321<br />
+                               Tel: (305) 209 IMAS <br />
+                               Tel: (305) 209 4627 <br />
+                               Fax: (305) 909 6463<br />
+                               Mobile: (954) 990 9884<br />
+           <!--                Email: info@imasconsulting.com<br />-->
+                             </li>
+                       </ul>
+                    </div>
+                </div>
+              </div>
             <div id="bottom-content"></div>
         </div>
-         <div id="footer"></div>
+         <div id="footer">
+            <?php
+             include 'includes/footer.php';
+            ?> 
+         </div>
      </div>
-        <?php
-          
-        ?>    
+   
     </body>
 </html>
 

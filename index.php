@@ -1,13 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
-    <link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
-    <link href="css/default.css" rel="stylesheet" type="text/css">
-    <link rel="icon"  type="image/ico" href="../images/favicon.ico">
-    <script src="/javascript/jquery.js"></script>
+        <?php include 'includes/css_javascript_links.php'?>;
         <title>imas Consulting- Home</title>
     </head>
     <body>
@@ -41,7 +35,11 @@
              </div>
             <div id="bottom-content"></div>
         </div>
-         <div id="footer"></div>
+         <div id="footer">
+            <?php
+             include 'includes/footer.php';
+            ?> 
+         </div>
      </div>
         <?php
           

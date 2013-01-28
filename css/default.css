@@ -20,7 +20,7 @@ body{
    background-image: url(../images/imas_logo-01r.png);
    background-repeat: no-repeat;
 /*   border: thin solid;*/
-   background-color: #a2cd3a;; 
+   background-color: #a2cd3a; 
    
 }
 #nav-container{
@@ -55,7 +55,7 @@ body{
  }
  
  #main-content{
-     width: 75%;
+     width: 90%;
 /*     width: 600px;*/
      height: auto;
      padding: 10px 40px 10px 30px;
