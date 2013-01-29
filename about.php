@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-    <?php include 'includes/css_javascript_links.php'?>;
+    <?php include 'includes/css_javascript_links.php';?> 
     <title>imas Consulting- About Us</title>
     </head>
     <body>
@@ -102,6 +102,7 @@
                     </div>
                 </div>
             </div>
+           <br/><br/><br/><br/><br/><br/><br/>
         </div><!-- end main content -->
             <div id="bottom-content"></div>
         </div>

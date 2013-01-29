@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <?php include 'includes/css_javascript_links.php'?>;
+        <?php include 'includes/css_javascript_links.php';?> 
         <title>imas Consulting- Services</title>
     </head>
     <body>

@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <?php include 'includes/css_javascript_links.php'?>;    
+        <?php include 'includes/css_javascript_links.php';?>   
         <title>imas Consulting- Contact Us</title>
     </head>
     <body>
@@ -86,7 +86,7 @@
                             quality management, or project management. We would love to hear from you.
                         </p>
                         <ul>
-                            <li style="list-style-type: none; padding-left: 30px;">
+                            <li style="list-style-type: none; padding-left: 30px; color: #2A2F86">
                                8508 E. Southgate Shores Circle<br />
                                Tamarac, Fl. 33321<br />
                                Tel: (305) 209 IMAS <br />
@@ -98,6 +98,7 @@
                        </ul>
                     </div>
                 </div>
+               <br /><br /><br /><br /><br /><br /><br /><br />
               </div>
             <div id="bottom-content"></div>
         </div>
